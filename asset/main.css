@@ -1,0 +1,145 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.dotted {
+  border: 3px dotted #bbb;
+}
+.navbar {
+  position: sticky;
+  background-color: white;
+}
+.brand {
+  display: flex;
+  margin-left: 5%;
+}
+.nav-item {
+  padding-top: 5px;
+}
+.item-navbar {
+  margin-right: 5%;
+}
+.nav-item a {
+  text-decoration: none;
+}
+
+.first_name,
+.last_name {
+  color: black;
+}
+.nav-item a:hover {
+  color: black;
+  background-color: yellow;
+}
+.brend {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.bigPict {
+  background-image: url("/solar_panel_PNG118.png");
+  background-color: green;
+  height: 40vw;
+  min-width: 100%;
+  color: wheat;
+  position: relative;
+  margin-bottom: 20px;
+}
+#carousel .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#carousel img {
+  max-width: 9vw;
+  height: auto;
+}
+#carousel .text h4 {
+  overflow-y: hidden;
+  font-size: 7vw;
+  letter-spacing: 0.5vw;
+  line-height: 7vw;
+}
+#carousel .text p {
+  font-size: 0.8vw;
+  letter-spacing: 0.01cm;
+  font-family: serif;
+}
+.logoku {
+  background-size: 2rem;
+  filter: invert(71%) sepia(47%) saturate(2771%) hue-rotate(95deg)
+    brightness(105%) contrast(104%);
+}
+.brandku a {
+  text-align: center;
+}
+.wallet,
+.arrow {
+  filter: invert(13%) sepia(88%) saturate(5327%) hue-rotate(352deg)
+    brightness(76%) contrast(111%);
+}
+.sun {
+  filter: invert(93%) sepia(30%) saturate(4547%) hue-rotate(349deg)
+    brightness(99%) contrast(108%);
+}
+@media screen and (max-width: 650px) {
+  .brandku a {
+    margin-left: 10px;
+  }
+  .mission-text {
+    text-align: center;
+  }
+}
+/* mission */
+.mission {
+  background: white;
+}
+
+.underline {
+  width: 150px;
+  border: 3px solid black;
+  background-color: black;
+  margin: auto;
+}
+
+.fromLeft {
+  animation-name: fromLeft;
+  animation-duration: 3s;
+}
+
+.fromRight {
+  animation-name: fromRight;
+  animation-duration: 3s;
+}
+
+@keyframes fromLeft {
+  0% {
+    transform: translateX(-120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fromRight {
+  0% {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
