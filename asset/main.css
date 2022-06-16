@@ -45,7 +45,7 @@ body {
   white-space: nowrap;
 }
 .bigPict {
-  background-image: url("/solar_panel_PNG118.png");
+  background-image: url("/solar.png");
   background-color: green;
   height: 40vw;
   min-width: 100%;
@@ -92,6 +92,51 @@ body {
   filter: invert(93%) sepia(30%) saturate(4547%) hue-rotate(349deg)
     brightness(99%) contrast(108%);
 }
+.pudar {
+  border-radius: 10px;
+  position: relative;
+  overflow-y: hidden;
+}
+.pudar img {
+  background-color: #bbb;
+  transition: transform 0.5s;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+.isian {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  transition: 0.8s ease;
+  opacity: 0;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.pudar div:hover {
+  opacity: 1;
+}
+.pudar img:hover {
+  opacity: 1;
+  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(4px);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+.pudar:hover {
+  box-shadow: 2px 2px 5px #bbb;
+}
+.pudar:hover .isian {
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 650px) {
   .brandku a {
     margin-left: 10px;
