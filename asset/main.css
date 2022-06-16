@@ -137,12 +137,25 @@ body {
   opacity: 0.5;
 }
 
+/* product */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
 @media screen and (max-width: 650px) {
   .brandku a {
     margin-left: 10px;
   }
   .mission-text {
     text-align: center;
+  }
+  /* product */
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
 }
 /* mission */
