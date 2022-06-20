@@ -4,8 +4,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 .dotted {
   border: 3px dotted #bbb;
@@ -92,6 +90,10 @@ body {
   filter: invert(93%) sepia(30%) saturate(4547%) hue-rotate(349deg)
     brightness(99%) contrast(108%);
 }
+#grid * {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 .pudar {
   border-radius: 10px;
   position: relative;
@@ -138,14 +140,9 @@ body {
 }
 
 /* product */
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+.cards {
+  overflow-y: hidden;
 }
-
 @media screen and (max-width: 650px) {
   .brandku a {
     margin-left: 10px;
