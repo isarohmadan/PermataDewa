@@ -13,7 +13,7 @@
         <p class="lead fs-4">
         pengadaan dan perbaikan panel Genset, ats amf, dan operatorless panel untuk genset, dan panel lain sesuai kebutuhan
         </p>
-        <a href="home.php" class="btn btn-primary fs-6"> Kembali </a>
+        <a href="index.php" class="btn btn-primary fs-6"> Kembali </a>
       </div>
   
 

@@ -13,7 +13,7 @@
         <p class="lead fs-4">
         Rewending Elektro motor dan Generator premium class garansi sampai 5Thn.
         </p>
-        <a href="home.php" class="btn btn-primary fs-6"> Kembali </a>
+        <a href="index.php" class="btn btn-primary fs-6"> Kembali </a>
       </div>
   
 

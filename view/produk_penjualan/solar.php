@@ -27,7 +27,7 @@ Produktivitas berkisar 5 x Wp
 Untuk Solar atab produktivitad tergantung posisi atab
 Biasa nya kurang dari 5 x Wp .
 Disbanding dengan menggunakan Solar tracker sebesar 8 x Wp.</p>
-        <a href="home.php" class="btn btn-primary fs-6"> Kembali </a>
+        <a href="index.php" class="btn btn-primary fs-6"> Kembali </a>
       </div>
   
       

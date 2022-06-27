@@ -11,7 +11,7 @@
         <p class="lead fs-4">
         Pengadaan panel VSD dan VFD , panel variabel speed untuk pumpa air, fan, pendingin  dan kebutuhan automatisasi lain yang berbasis plc.
         </p>
-        <a href="home.php" class="btn btn-primary fs-6"> Kembali </a>
+        <a href="index.php" class="btn btn-primary fs-6"> Kembali </a>
       </div>
     </div>
     </div>
