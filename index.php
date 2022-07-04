@@ -70,18 +70,18 @@ if (isset($_POST['submit'])) {
       </div>
     </nav>
     <!--carousel -->
-    <div class="container py-4">
-
-  
-      <div class="p-5 jumbo mb-4 background-img rounded-3">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">PERMATA DEWA</h1>
-          <p class="col-md-8 fs-4">Meningkatkan efesiensi penggunaan energi fosil dan menggunakan energi yang dapat terbarukan</p>
-          <a href="#produk" class="btn btn-primary btn-lg"> Produk Kami</a>
-        </div>
-      </div>
-    </div>
-   
+    <div class="p-5 jumbo mb-4 background-img rounded-3 shadow-lg" id="jumbotron">
+			<div class="row position-relative">
+			<div class="col py-5 font">
+			<h1 class="display-5 fw-bold">PERMATA DEWA</h1>
+			<p class="col-md-8 fs-4">Meningkatkan efesiensi penggunaan energi fosil dan menggunakan energi yang dapat terbarukan</p>
+			<a href="#produk" class="btn btn-primary btn-lg"> Produk Kami</a>
+			</div>
+			<div class="gambar position-absolute d-flex justify-content-end">
+				<img class="img-fluid" src="asset/img/nusantara.png" alt="">
+			</div>
+			</div>
+		</div>
     <!-- end carousel -->
 
     <section class="p-5 mission">

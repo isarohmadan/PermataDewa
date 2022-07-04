@@ -43,14 +43,28 @@ body {
   text-decoration: none;
   white-space: nowrap;
 }
-.background-img {
+/* .background-img {
   background-image: url("/PermataDewa/asset/img/caraousel.jpg");
-}
+} */
 
 .logoku {
   margin-right: -0.2vw;
   max-width: 80px;
   max-width: 60px;
+}
+.jumbo {
+  margin-top: 12rem;
+  max-width: 1400px;
+}
+#jumbotron {
+  margin: auto;
+}
+.gambar{
+  max-width: 400px;
+  z-index: 1;
+   }
+.font{
+  z-index: 2;
 }
 
 .brandku a {
